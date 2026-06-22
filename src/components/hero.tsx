@@ -3,9 +3,9 @@ export function Hero() {
     <section
       className="min-h-screen flex flex-col justify-center px-6 pt-24 pb-16 max-w-7xl mx-auto"
     >
-      <div className="max-w-3xl">
+      <div>
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.08] tracking-tight mb-8"
+          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.08] tracking-tight mb-8 max-w-5xl"
           style={{ color: "var(--fg)" }}
         >
           Frontier technology,{" "}
