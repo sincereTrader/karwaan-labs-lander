@@ -5,7 +5,7 @@ export function Hero() {
     >
       <div>
         <h1
-          className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-semibold leading-[1.08] tracking-tight mb-8 max-w-5xl"
+          className="text-5xl sm:text-6xl lg:text-7xl font-semibold leading-[1.08] tracking-tight mb-8 w-full"
           style={{ color: "var(--fg)" }}
         >
           Frontier technology,{" "}
