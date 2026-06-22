@@ -22,14 +22,6 @@ export function Hero() {
         </p>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="mt-auto pt-16 flex items-center gap-2" style={{ color: "var(--muted)" }}>
-        <div
-          className="w-px h-10 opacity-40"
-          style={{ background: "var(--muted)" }}
-        />
-        <span className="text-xs tracking-widest uppercase opacity-60">Scroll</span>
-      </div>
     </section>
   );
 }
