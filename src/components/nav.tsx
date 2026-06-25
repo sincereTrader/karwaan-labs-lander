@@ -5,8 +5,8 @@ import { useEffect, useState } from "react";
 
 const links = [
   { label: "Masala Dew", href: "https://masaladew.com" },
-  { label: "About", href: "#about" },
-  { label: "Careers", href: "mailto:hire@karwaanlabs.com" },
+  // { label: "About", href: "#about" },
+  // { label: "Careers", href: "mailto:hire@karwaanlabs.com" },
 ];
 
 export function Nav() {
@@ -40,9 +40,8 @@ export function Nav() {
             <a
               key={link.label}
               href={link.href}
-              className="text-sm px-4 py-1.5 rounded-full border transition-all duration-150 hover:opacity-80"
+              className="text-sm px-4 py-1.5 rounded-full transition-all duration-150 hover:opacity-80"
               style={{
-                borderColor: "var(--border)",
                 color: "var(--fg)",
               }}
             >
