@@ -17,18 +17,18 @@ export function Nav() {
   useEffect(() => setMounted(true), []);
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 px-6 py-4">
+    <header className="fixed top-0 inset-x-0 z-50 px-4 sm:px-6 py-4">
       <nav className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-3 group">
+        <a href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
           <span
-            className="w-8 h-8 rounded-full border-2 flex-shrink-0 transition-colors duration-200"
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 flex-shrink-0 transition-colors duration-200"
             style={{
               borderColor: "var(--accent)",
             }}
           />
           <span
-            className="text-base font-medium tracking-wide"
+            className="text-sm sm:text-base font-medium tracking-wide whitespace-nowrap"
             style={{ color: "var(--fg)" }}
           >
             Karwaan Labs
@@ -36,12 +36,12 @@ export function Nav() {
         </a>
 
         {/* Right side */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1 sm:gap-3">
           {links.map((link) => (
             <a
               key={link.label}
               href={link.href}
-              className="text-sm px-4 py-1.5 rounded-full transition-all duration-150 hover:opacity-80"
+              className="text-xs sm:text-sm px-2 sm:px-4 py-1.5 rounded-full transition-all duration-150 hover:opacity-80 whitespace-nowrap"
               style={{
                 color: "var(--fg)",
               }}
