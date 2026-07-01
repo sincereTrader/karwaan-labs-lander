@@ -16,7 +16,7 @@ export default function Manifesto() {
           className="text-3xl sm:text-4xl font-semibold tracking-tight mb-10"
           style={{ color: "var(--fg)" }}
         >
-          A Manifesto
+          a manifesto
         </h1>
 
         <div
