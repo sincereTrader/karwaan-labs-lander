@@ -17,7 +17,7 @@ export function Nav() {
   useEffect(() => setMounted(true), []);
 
   return (
-    <header className="fixed top-0 inset-x-0 z-50 px-4 sm:px-6 py-4">
+    <header className="fixed top-0 inset-x-0 z-50 px-4 sm:px-6 py-4 border-b" style={{ background: "var(--bg)", borderColor: "var(--border)" }}>
       <nav className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
