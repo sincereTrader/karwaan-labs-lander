@@ -4,8 +4,9 @@ import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
 const links = [
-  { label: "Manifesto", href: "/manifesto" },
+  { label: "Saras", href: "https://saras.works" },
   { label: "Masala Dew", href: "https://masaladew.com" },
+  { label: "Manifesto", href: "/manifesto" },
   // { label: "About", href: "#about" },
   // { label: "Careers", href: "mailto:hire@karwaanlabs.com" },
 ];
