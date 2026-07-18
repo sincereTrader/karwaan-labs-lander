@@ -17,7 +17,7 @@ export function Hero() {
           className="text-lg sm:text-xl leading-relaxed max-w-xl"
           style={{ color: "var(--muted)" }}
         >
-          We buy, build and write about tech and its cultural implications,
+          We build and write about tech and its cultural implications,
           in India and beyond.
         </p>
       </div>
