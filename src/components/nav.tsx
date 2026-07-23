@@ -7,8 +7,8 @@ const links = [
   { label: "Saras", href: "https://saras.works" },
   { label: "Masala Dew", href: "https://masaladew.com" },
   { label: "Manifesto", href: "/manifesto" },
+  { label: "Careers", href: "/careers" },
   // { label: "About", href: "#about" },
-  // { label: "Careers", href: "mailto:hire@karwaanlabs.com" },
 ];
 
 export function Nav() {
