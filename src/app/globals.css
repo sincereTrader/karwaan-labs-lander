@@ -6,6 +6,7 @@
   --accent: #FF6B00;
   --border: #E0D8CE;
   --muted: #7A7268;
+  --logo-mark: #FF6B00;
 }
 
 .dark {
@@ -14,6 +15,7 @@
   --accent: #E8A020;
   --border: #2A2A2A;
   --muted: #6B6560;
+  --logo-mark: #E8A020;
 }
 
 @theme inline {
@@ -29,4 +31,14 @@ body {
   background: var(--bg);
   color: var(--fg);
   transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Counter shapes (window, door, wheel hub) sit on the page background,
+   so they track --bg and the mark reads as cut-out rather than tiled. */
+.logomark-bg {
+  fill: var(--bg);
+}
+
+.logomark-mark {
+  fill: var(--logo-mark);
 }

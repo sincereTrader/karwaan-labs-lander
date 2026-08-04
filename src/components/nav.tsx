@@ -2,6 +2,7 @@
 
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
+import { Logomark } from "./logomark";
 
 const links = [
   { label: "Saras", href: "https://saras.works" },
@@ -22,12 +23,7 @@ export function Nav() {
       <nav className="flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
-          <span
-            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 flex-shrink-0 transition-colors duration-200"
-            style={{
-              borderColor: "var(--accent)",
-            }}
-          />
+          <Logomark className="w-8 h-8 sm:w-9 sm:h-9 flex-shrink-0 transition-colors duration-200" />
           <span
             className="text-sm sm:text-base font-medium tracking-wide whitespace-nowrap"
             style={{ color: "var(--fg)" }}
