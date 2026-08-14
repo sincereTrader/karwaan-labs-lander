@@ -79,7 +79,8 @@ export default function Careers() {
             which is 80% configuration, 15% coding with agents and 5% tasteful
             intuition about systems. Which is why you&apos;d be expected to
             learn quickly, make mistakes and have a fun time working on
-            important problem statements that matter to real users.
+            important problem statements that matter to real people doing real
+            things.
           </p>
 
           <h2
