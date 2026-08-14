@@ -101,7 +101,7 @@ export default function Careers() {
               make it scalable and repeatable, and automate as much of the work
               as possible. By eliminating the recurring work over time, you
               create room for the higher-leverage parts of the charter as Saras
-              grows (~40 hours/week)
+              grows
             </li>
             <li>
               Share your learnings through social channels, building career
