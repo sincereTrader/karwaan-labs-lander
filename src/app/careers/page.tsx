@@ -123,8 +123,9 @@ export default function Careers() {
               to 6 months by mutual agreement
             </li>
             <li>
-              <strong>Work style:</strong> Remote-first, with mentorship from
-              industry leaders working on the charter
+              <strong>Work style:</strong> Remote-first, with a sustainable
+              rhythm that protects working hours, leaves room for mentorship,
+              and makes wellness part of the way we work
             </li>
             <li>
               <strong>Fixed component:</strong> ₹50k/month
