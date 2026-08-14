@@ -53,7 +53,7 @@ export default function Careers() {
             </h2>
 
             <Link
-              href="/careers/ai-engineer-01"
+              href="/careers/ai-engineer"
               className="group block rounded-2xl border p-5 sm:p-6 transition-colors duration-150 hover:bg-[var(--border)]/20"
               style={{ borderColor: "var(--border)" }}
             >
