@@ -117,15 +117,20 @@ export default function Careers() {
               to 6 months by mutual agreement
             </li>
             <li>
-              <strong>Cash:</strong> ₹35–50k/month
+              <strong>Fixed component:</strong> ₹50k/month
             </li>
             <li>
-              <strong>Profit share:</strong> 15% of Saras&apos;s net profit
-              after 1L+ MRR, paid quarterly
+              <strong>Profit share:</strong> 10% of Saras&apos;s net profit, paid
+              at the end of the contract term, with no ceiling
             </li>
             <li>
               <strong>Tooling:</strong> All AI tools and subscriptions, fully
               expensed
+            </li>
+            <li>
+              <strong>What could come next:</strong> If things work out between
+              us and the business keeps booming, the role could convert to a
+              founding engineer role with meaningful equity
             </li>
           </ul>
 
