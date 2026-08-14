@@ -123,6 +123,10 @@ export default function Careers() {
               to 6 months by mutual agreement
             </li>
             <li>
+              <strong>Work style:</strong> Remote-first, with mentorship from
+              industry leaders working on the charter
+            </li>
+            <li>
               <strong>Fixed component:</strong> ₹50k/month
             </li>
             <li>
