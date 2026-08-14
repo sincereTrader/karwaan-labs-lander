@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 
-// TODO: swap in the Youform application link
-const APPLY_URL = "#";
+const APPLY_URL = "mailto:contact@karwaanlabs.com";
 
 export const metadata: Metadata = {
   title: "AI Engineer (Contract) — Karwaan Labs",
@@ -212,7 +211,7 @@ export default function Careers() {
               className="inline-block text-base font-medium px-7 py-3 rounded-full transition-opacity duration-150 hover:opacity-85"
               style={{ background: "var(--accent)", color: "var(--bg)" }}
             >
-              Apply for this role
+              Apply via email
             </a>
           </div>
         </div>
