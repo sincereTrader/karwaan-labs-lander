@@ -12,12 +12,10 @@ const robotoMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Karwaan Labs",
-  description:
-    "A product studio that buys, builds and writes about tech and India.",
+  description: "Frontier technology, for those who deserve it.",
   openGraph: {
     title: "Karwaan Labs",
-    description:
-      "A product studio that buys, builds and writes about tech and India.",
+    description: "Frontier technology, for those who deserve it.",
     siteName: "Karwaan Labs",
   },
 };
