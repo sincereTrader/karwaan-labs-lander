@@ -92,15 +92,16 @@ export default function Careers() {
 
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              Own and evolve the platform that Saras runs on: keep it reliable,
-              make it scalable and repeatable, and automate as much of the
-              work as possible. In other words, you&apos;re paid to eliminate your
-              own work over time (~40 hours/week)
-            </li>
-            <li>
               Build messaging gateways that help Saras scale across platforms
               while preserving continuity—a challenging, interesting problem
               statement at the heart of how agents become useful
+            </li>
+            <li>
+              Own and evolve the platform that Saras runs on: keep it reliable,
+              make it scalable and repeatable, and automate as much of the work
+              as possible. By eliminating the recurring work over time, you
+              create room for the higher-leverage parts of the charter as Saras
+              grows (~40 hours/week)
             </li>
             <li>
               Share your learnings through social channels, building career
