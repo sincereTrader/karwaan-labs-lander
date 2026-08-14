@@ -60,17 +60,19 @@ export default function Careers() {
             >
               Saras
             </a>
-            , we&apos;re building the learning system for the future for busy
-            professionals. We&apos;re starting out by solving standardized test
-            prep, with ambitions to make a huge dent in this $120B+ market.
+            , we&apos;re building the accountability systems of the future for
+            busy professionals. We&apos;re starting out by solving standardized
+            test prep in a way that creates real outcomes for real users,
+            beyond the benchmarks, with ambitions to make a huge dent in this
+            $120B+ market.
           </p>
 
           <p>
             What we build through Saras feeds forward towards our even larger
-            ambitions at Karwaan Labs. We&apos;re independent, bootstrapped,
-            remote-first but mission-oriented. We&apos;re very early in the
-            game, and have the right room to experiment and bring frontier tech
-            to those who deserve it.
+            ambitions at Karwaan Labs: to bring frontier technology to an
+            exciting space where it can produce meaningful outcomes beyond
+            benchmarks. We&apos;re independent, bootstrapped, remote-first but
+            mission-oriented.
           </p>
 
           <p>
@@ -78,7 +80,7 @@ export default function Careers() {
             which is 80% configuration, 15% coding with agents and 5% tasteful
             intuition about systems. Which is why you&apos;d be expected to
             learn quickly, make mistakes and have a fun time working on
-            important problem statements.
+            important problem statements that matter to real users.
           </p>
 
           <h2
