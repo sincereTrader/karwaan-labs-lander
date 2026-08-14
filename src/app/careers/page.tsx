@@ -92,17 +92,20 @@ export default function Careers() {
 
           <ul className="list-disc pl-6 space-y-2">
             <li>
-              Own the agent infrastructure that powers Saras: design, build, and
-              maintain (~40 hours/week)
+              Own and evolve the platform that Saras runs on: keep it reliable,
+              make it scalable and repeatable, and automate as much of the
+              work as possible. In other words, you&apos;re paid to eliminate your
+              own work over time (~40 hours/week)
             </li>
             <li>
-              Take key architectural decisions based on user pulse and new
-              developments in agent frameworks
+              Build messaging gateways that help Saras scale across platforms
+              while preserving continuity—a challenging, interesting problem
+              statement at the heart of how agents become useful
             </li>
             <li>
-              Document key learnings tastefully and call out architecture limits
-              well in advance; take part in setting long-term strategy of the
-              product
+              Share your learnings through social channels, building career
+              capital as we show the world what we&apos;re learning about building
+              agents and how to do it well
             </li>
           </ul>
 
