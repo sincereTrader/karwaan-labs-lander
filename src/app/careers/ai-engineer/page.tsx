@@ -9,16 +9,7 @@ export const metadata: Metadata = {
     "Own the agent infrastructure that powers Saras. A 3-month remote contract role at Karwaan Labs.",
 };
 
-const meta = ["Remote", "Contract · 3 months", "Noida", "2+ years"];
-
-const skills = [
-  "Production AI systems",
-  "Software Architecture",
-  "Problem Solving",
-  "OpenClaw configuration",
-  "Large Language Models and finetuning",
-  "Agent Memory Management",
-];
+const meta = ["Remote", "Contract · 3 months", "2+ years"];
 
 export default function AIEngineerContract() {
   return (
@@ -80,7 +71,8 @@ export default function AIEngineerContract() {
             intuition about systems. Which is why you&apos;d be expected to
             learn quickly, make mistakes and have a fun time working on
             important problem statements that matter to real people doing real
-            things.
+            things. Hermes, Codex and the rest of the stack are your co-workers;
+            be ready to build the way engineering will get done in the future.
           </p>
 
           <h2
@@ -92,23 +84,45 @@ export default function AIEngineerContract() {
 
           <ul className="list-disc pl-6 space-y-2">
             <li>
+              Own and evolve the platform that Saras runs on, custom-built with
+              open source components. Make onboarding repeatable, and automate
+              as much of the work as possible. By eliminating the recurring work
+              over time, you create room for the higher-leverage parts of the
+              charter
+            </li>
+            <li>
               Build messaging gateways that help Saras scale across platforms
-              while preserving continuity—a challenging, interesting problem
-              statement at the heart of how agents become useful
+              while preserving continuity. Saras lives on Telegram today, with
+              WhatsApp and iMessage on the roadmap
             </li>
             <li>
-              Own and evolve the platform that Saras runs on: keep it reliable,
-              make it scalable and repeatable, and automate as much of the work
-              as possible. By eliminating the recurring work over time, you
-              create room for the higher-leverage parts of the charter as Saras
-              grows
+              Build the systems around the agent: conversational intake,
+              personalized study plans, routines, payments and integrations with
+              proprietary 3P platforms
             </li>
             <li>
-              Share your learnings through social channels, building career
-              capital as we show the world what we&apos;re learning about building
-              agents and how to do it well
+              Share your learnings through social channels and, where it makes
+              sense, make open source contributions to high-profile projects.
+              Build career capital and exemplify how to build outcome-driven
+              agents
             </li>
           </ul>
+
+          <p>
+            The stack is intentionally open-ended, but you&apos;ll work with
+            autonomous AI agents, multi-tenant messaging, Docker, cron-driven
+            automation, cloud deployment and agent frameworks in the
+            Hermes/OpenClaw lineage. You&apos;ll also own the operational layer:
+            per-profile logging, memory-integrity checks and gateway health. If
+            you can reason about self-running agents and production cloud
+            systems, you can pick up the specifics on the job.
+          </p>
+
+          <p>
+            This is not a research-only or pure backend role. You&apos;ll configure
+            agents, write the code and docs, make product calls, and own
+            decisions from day one.
+          </p>
 
           <h2
             className="text-xl sm:text-2xl font-semibold tracking-tight pt-6"
@@ -131,7 +145,7 @@ export default function AIEngineerContract() {
               <strong>Fixed component:</strong> ₹50k/month
             </li>
             <li>
-              <strong>Profit share:</strong> 10% of Saras&apos;s net profit, paid
+              <strong>Profit share:</strong> 10% of Saras&apos;s gross profit, paid
               at the end of the contract term, with no ceiling
             </li>
             <li>
@@ -189,25 +203,6 @@ export default function AIEngineerContract() {
             Applicants with compelling GitHub profiles or portfolios will be
             preferred over swanky resumes.
           </p>
-
-          <h2
-            className="text-xl sm:text-2xl font-semibold tracking-tight pt-6"
-            style={{ color: "var(--fg)" }}
-          >
-            Skills
-          </h2>
-
-          <div className="flex flex-wrap gap-2">
-            {skills.map((skill) => (
-              <span
-                key={skill}
-                className="text-xs sm:text-sm px-3 py-1 rounded-full border"
-                style={{ borderColor: "var(--border)", color: "var(--muted)" }}
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
 
           <div className="pt-10">
             <a
